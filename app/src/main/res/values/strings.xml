@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+    <string name="create_new_contact">CREATE NEW CONTACT</string>
+    <string name="contacts">Contacts App</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_website">Enter Website</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_baseline_call_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:clickable="true"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_baseline_link_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/contacts"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/create_new_contact"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
